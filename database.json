@@ -1,0 +1,18 @@
+{
+  "MAX_CONN": 100,
+  "POOL_SIZE": 25,
+  "database": {
+    "host": "db.example.com",
+    "port": 5432,
+    "pools": [
+      25,
+      30,
+      50
+    ],
+    "charset": "UTF8",
+    "connections": {
+      "max": 100,
+      "idle": 10
+    }
+  }
+}

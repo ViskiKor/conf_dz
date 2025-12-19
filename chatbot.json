@@ -1,0 +1,31 @@
+{
+  "BOT_NAME": "SmartBot",
+  "PORT": 3000,
+  "SSL_PORT": 3443,
+  "API_TOKEN": "abc123xyz",
+  "RATE_LIMIT": 100,
+  "MAX_MSG": 200,
+  "BOT": {
+    "name": "SmartBot",
+    "ports": [
+      3000,
+      3443
+    ],
+    "limits": {
+      "rate": 100,
+      "max_msg": 200
+    },
+    "features": [
+      "AI",
+      "NLP",
+      "Voice"
+    ],
+    "debug": true,
+    "symbol": "chr"
+  },
+  "STATS": {
+    "users": 5423,
+    "messages": 124567,
+    "uptime": 99
+  }
+}

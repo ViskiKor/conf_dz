@@ -1,0 +1,15 @@
+{
+  "PORT": 8080,
+  "SSL_PORT": 8523,
+  "TIMEOUT": 30,
+  "webserver": {
+    "host": "localhost",
+    "ports": [
+      8080,
+      8523
+    ],
+    "timeout": 30,
+    "workers": 60,
+    "charset": "chr"
+  }
+}
